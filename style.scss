@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+header {
+  width: 100%;
+  background-color: rgb(220, 245, 220);
+  display: flex; //Ativando as caixas flexíveis
+  justify-content: space-around; //Trabalha o eixo x - horizontal
+  align-items: center; //Trabalha o eixo y - vertical
+  height: 15vh;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  height: 7vh;
+  font-size: 2em;
+}
+
+nav {
+
+  width: 40%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: solid;
+  width: 8%;
+  height: 10vh;
+  text-decoration: none;
+  font-size: 1em;
+
+}
+
+.portologistica {
+  
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-image: url(./imagens/background.png);
+  background-size: 120%;
+
+  h1 {
+    display: flex;
+    align-items: end;
+    flex-direction: column-reverse;
+    height: 50vh;
+
+    width: 50%;
+    color: white;
+    font-size: 5em;
+  }
+
+  p {
+    display: flex;
+    align-items: end;
+    flex-direction: column-reverse;
+    width: 35%;
+
+    color: white;
+    height: 5vh;
+  }
+
+  nav {
+
+    display: flex;
+    align-items: end;
+    flex-direction: column-reverse;
+    width: 30%;
+
+    color: white;
+    height: 10vh;
+  }
+
+  button {
+
+    color: white;
+    width: 50%;
+    height: 8vh;
+    background-color: blue;
+  }
+
+}
+.Gestão{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  article{
+    border: solid;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    height: 50vh;
+
+  }
+  h3{
+    display: flex;
+    align-items: end;
+    border: solid;
+    color: blue;
+    height: 10vh;
+  }
+  h4{
+
+    border: solid;
+    height: 10vh;
+  }
+  p{
+    border: solid;
+  }
+
+img{
+  
+  height: 70vh;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 201px) and (max-width: 500px) {
+  header {
+    height: 30vh;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h2 {
+    display: none; //Faz com que o seletor suma
+  }
+
+}
